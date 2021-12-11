@@ -1,0 +1,71 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: "post-1 post-2 post-2 post-2 post-3"
+  "post-4 post-5 post-6 post-7 post-8"
+  "post-4 post-9 post-10 post-11 post-11"
+  "post-12 post-13 post-14 post-14 post-15"
+;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.post-1 {
+  grid-area: post-1;
+}
+.post-2 {
+  grid-area: post-2;
+}
+.post-3 {
+  grid-area: post-3;
+}
+.post-4 {
+  grid-area: post-4;
+}
+.post-5 {
+  grid-area: post-5;
+}
+.post-6 {
+  grid-area: post-6;
+}
+.post-7 {
+  grid-area: post-7;
+}
+.post-8 {
+  grid-area: post-8;
+}
+.post-9 {
+  grid-area: post-9;
+}
+.post-10 {
+  grid-area: post-10;
+}
+.post-11{
+  grid-area: post-11;
+}
+.post-12{
+  grid-area: post-12;
+}
+.post-13{
+  grid-area: post-13;
+}
+.post-14{
+  grid-area: post-14;
+}
+.post-15{
+  grid-area: post-15;
+}
+.rectangle{
+  border: 2px solid grey;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.rectangle:focus{
+  background-color: orange;
+}
+
+.display-none{
+  display: none;
+}
